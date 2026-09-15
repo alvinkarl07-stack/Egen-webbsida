@@ -3,4 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+header{
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+nav{
+    background: #bb1010;
+    color: #996911;
+    padding: 1rem;
+    padding-left: 6rem;
 
+}
+nav a:hover{
+    color: #a7aa0f;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background: #8b6e0b;
+}
+section{
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
